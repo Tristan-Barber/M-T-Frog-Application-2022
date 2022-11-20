@@ -1,7 +1,7 @@
 /* I made all pixel art on https://lospec.com/ */
 body
 {
-    background-color: #30f492;
+    background-color: #92e4bb;
     cursor: url('/assets/media/frog_regular.png'), auto;
 }
 
@@ -38,7 +38,7 @@ body
 {
     position: absolute;
     top: 100%;
-    left: 0%;
+    left: -100%;
     display:none;
 }
 
@@ -46,6 +46,9 @@ body
 {
     background-color: #92e4bb;
     margin-bottom: 1%;   
+    color: #c878bd;
+    text-align: center;
+    
 }
 .dropdown li:hover
 {
@@ -65,31 +68,35 @@ body
 
 a:link 
 {
-    color: red;
+    text-decoration: none;
+    color: #c878bd;
     cursor: url('/assets/media/frog_hover.png'), auto;
 }
   
 a:visited 
 {
-    color: green;
+    text-decoration: none;
+    color: #c86fbc;
     cursor: url('/assets/media/frog_hover.png'), auto;
 }
   
 a:hover 
 {
-    color: hotpink;
+    text-decoration: none;
+    color: #c878bd;
     cursor: url('/assets/media/frog_hover.png'), auto;
 }
 
 a:active 
 {
-    color: blue;
+    text-decoration: none;
+    color: #ba32a8;
     cursor: url('/assets/media/frog_hover.png'), auto;
 }
 
 footer
 {
-    border: dotted #92e4bb 5px;
+    border: dotted #92e4bb 10px;
     padding: 1%;
     margin-top: 1%;
 }
