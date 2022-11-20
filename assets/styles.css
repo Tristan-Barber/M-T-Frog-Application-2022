@@ -48,12 +48,12 @@ body
     margin-bottom: 1%;   
     color: #c878bd;
     text-align: center;
-    
+    font-size: larger;
 }
+
 .dropdown li:hover
 {
     background-color: #66dba0;
-    cursor:pointer;
     cursor: url('/assets/media/frog_hover.png'), auto;
 }
 
@@ -62,7 +62,6 @@ body
     display: block;
     width:300%;
     background-color: #52d18f;
-    cursor: pointer;
     cursor: url('/assets/media/frog_hover.png'), auto;
 }
 
@@ -99,4 +98,32 @@ footer
     border: dotted #92e4bb 10px;
     padding: 1%;
     margin-top: 1%;
+}
+
+@media screen and (max-width: 480px) 
+{
+    .dropdown li:hover .dropped
+    {
+        width: 100%;
+    }
+
+    .dropdown .dropped
+    {
+        left: 0%;
+    }
+
+    footer
+    {
+        border: dotted #92e4bb 5px;
+    }
+
+    .inner-body
+    {
+        border-radius: 0%;
+    }
+
+    .dropdown
+    {
+        font-size: large;
+    }
 }
