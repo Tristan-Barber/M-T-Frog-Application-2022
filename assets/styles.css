@@ -3,6 +3,7 @@ body
 {
     background-color: #92e4bb;
     cursor: url('/assets/media/frog_regular.png'), auto;
+    text-align: center;
 }
 
 .inner-body
@@ -17,6 +18,18 @@ body
     padding-right: 5%;
     padding-bottom: 5%;
     padding-top: 2%;
+}
+
+.content
+{
+    margin-left: 4%;
+    margin-right: 4%;
+}
+
+h1
+{
+    color: #c86fbc;
+    font-weight: bold;
 }
 
 .dropdown ul
@@ -38,7 +51,7 @@ body
 {
     position: absolute;
     top: 100%;
-    left: -100%;
+    left: -50%;
     display:none;
 }
 
@@ -60,7 +73,7 @@ body
 .dropdown li:hover .dropped
 {
     display: block;
-    width:300%;
+    width:200%;
     background-color: #52d18f;
     cursor: url('/assets/media/frog_hover.png'), auto;
 }
