@@ -29,6 +29,12 @@ body
 h1
 {
     color: #c86fbc;
+    font-weight: bolder;
+}
+
+h2
+{
+    color: #c86fbc;
     font-weight: bold;
 }
 
@@ -62,6 +68,7 @@ h1
     color: #c878bd;
     text-align: center;
     font-size: larger;
+    font-weight: bold;
 }
 
 .dropdown li:hover
